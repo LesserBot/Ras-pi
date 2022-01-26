@@ -26,4 +26,5 @@
 - display-underscan- disable선택
 
 - 설치 끝 -재부팅-
+
 히히

@@ -1,4 +1,4 @@
-# putty로 접속하여 복사 붙여넣기
+# 터미널로 접속하여 복사 붙여넣기
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
@@ -8,9 +8,11 @@ sudo apt update
 
 sudo apt install ros-melodic-desktop-full
 
+
+
 sudo apt-get install python-pip
 
-sudo pip install -U rosdep
+sudo pip install -U rosdep                                        or                              sudo apt install python-rosdep
 
 sudo rosdep init
 
@@ -31,3 +33,5 @@ sudo apt install python-rosinstall python-rosinstall-generator python-wstool bui
 sudo shutdown -h 0
 
 ```
+
+
