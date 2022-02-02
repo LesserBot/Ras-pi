@@ -8,7 +8,7 @@
 - 2. 환경변수 설정
     - 일단 ubuntu로 접속하여 
     ```
-    cat /etc/resolve.conf
+    cat /etc/resolv.conf
     ``` 
     - 코드를 작성하여 ip를 확인한다. raspberry pi의 경우에는 할당한 고정 ip를 사용하면 되겠지만 window에서 wsl을 사용하여 할 경우에는 따로 ip를 배정받기 때문에 위 작업으로 확인해야한다.
 
